@@ -3,8 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SourceCode", "SourceCode", "{BB828B86-4E10-4825-9095-1417B5C4D344}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{146C73F1-A842-4552-8158-B357D687CF79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{0F7FAD1D-8E0B-4816-AAE0-F616E951C348}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{146C73F1-A842-4552-8158-B357D687CF79} = {BB828B86-4E10-4825-9095-1417B5C4D344}
+		{0F7FAD1D-8E0B-4816-AAE0-F616E951C348} = {BB828B86-4E10-4825-9095-1417B5C4D344}
 	EndGlobalSection
 EndGlobal
